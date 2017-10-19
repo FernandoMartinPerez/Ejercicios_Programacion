@@ -19,12 +19,25 @@ public class Tema4Ejercicio9 {
     double c = Double.parseDouble(System.console().readLine());
     
     //Represento la formula para  resolver el problema
-    hacerRaiz= 
+    //Divide y venceras
     
-    //Represento la  solución con dos  decimales
-    System.out.print("La solucion 1 es x =  ");
-    System.out.printf("%.2f", X1,ln);
-    System.out.println(" siga esforzandose.");
+    double dentroRaiz = (b*b)-(4*a*c);
+    double raiz = Math.sqrt(dentroRaiz);
+    
+    double solucion1 = (-b + raiz)/(2*a);
+    double solucion2 = (-b - raiz)/(2*a);
+    
+      if (a <=0)  {
+        System.out.println("No se puede hacer porque a es igual o menor que cero");}
+      else{
+        System.out.println("la soluciones son: ");
+        System.out.printf("x1 = %.2f\n", solucion1);
+        System.out.printf("x2 = %.2f\n",  solucion2);
+        }
+                  
+    
+    
+    
     
    
 }
