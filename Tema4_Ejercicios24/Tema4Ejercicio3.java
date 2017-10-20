@@ -8,9 +8,12 @@
 */
 public class Tema4Ejercicio3 {
 	public static void main(String[] args) {
-	System.out.print("Por favor, Introduzca un  numero del 1 al  7: ");
+	
+  System.out.print("Por favor, Introduzca un  numero del 1 al  7: ");
 	int numero = Integer.parseInt(System.console().readLine());
-	String diaSemana;
+	String diaSemana = "";
+  
+  // falta arreglar boolean diaAceptados= true;
 	
 	switch (numero){
 	case 1 :
@@ -36,12 +39,11 @@ public class Tema4Ejercicio3 {
 	break;
 
 	default:
-		diaSemana = "No te toca nada";
+		System.out.println("Dia no aceptado");
 
 
-			}
-
-System.out.println("El numero " + numero + " es el: " + diaSemana);
+  }
+    System.out.println("el numero es " + numero + " y el dia de la semana es: " + diaSemana);
 
 	}
 }
