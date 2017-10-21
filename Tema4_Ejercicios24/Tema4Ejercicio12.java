@@ -91,7 +91,7 @@ public class Tema4Ejercicio12 {
     System.out.println("c) Realidad virtual Sony     d) Un descanso");
     String respuesta9 = (System.console().readLine().toLowerCase());
 
-    if (respuesta9.equals("c")){
+    if (respuesta9.equals("a")){
         nota++;
     }
     
@@ -109,6 +109,11 @@ public class Tema4Ejercicio12 {
     
     
     System.out.println("tu nota es " + nota);
+    if (nota < 5){
+      System.out.println("Nesecitas estudiar más");
+      } else{
+          System.out.println("Enhorabuena estas aprobado");
+     }
     
     }
   }
