@@ -14,8 +14,8 @@ public class Tema4Ejercicio12 {
     
 
     System.out.println("1.¿Qué es un router?");
-    System.out.println("a) Un dispositivo de red 	b) Una rotonda");
-    System.out.println("c) Una patata 			d) Un tipo de fotocopiadora");
+    System.out.println("a) Un dispositivo de red  b) Una rotonda");
+    System.out.println("c) Una patata       d) Un tipo de fotocopiadora");
     String respuesta1 = (System.console().readLine().toLowerCase());
     int nota  = 0;
     if (respuesta1.equals("a")){
