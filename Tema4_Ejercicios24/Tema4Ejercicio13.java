@@ -9,7 +9,7 @@
 public class Tema4Ejercicio13 {
     public static void main(String[] args) {
     // Aquí comenzamos a recoger datos números enteros
-    System.out.println("Este programa de mayor a menor números enteros");
+    System.out.println("Este programa ordena de mayor a menor números enteros");
     System.out.println("Introduzca 1er número please:");
     int numero1 = Integer.parseInt(System.console().readLine());
     
