@@ -15,8 +15,14 @@ public class Tema4Ejercicio18 {
     int numeros, d1,d2,d3,d4,d5;
     
     System.out.print("Introduce un número entero de 5 cifras: ");
-    int numero = Integer.parseInt(System.console().readLine());
+    int numero = Math.abs(Integer.parseInt(System.console().readLine()));
     System.out.println();
+    
+    //if( numero < 10) { //el nº tiene una cifra
+      //System.out.println(numero);
+      //} else if ( numero < 100) { // el nº tiene 2 cifras
+        //System.out.println(numero / 10);
+      //}
     
     d1 = numero % 10;
     d2 = numero % 100 / 10;
