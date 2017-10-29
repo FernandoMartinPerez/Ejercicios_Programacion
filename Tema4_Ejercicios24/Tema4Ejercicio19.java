@@ -9,28 +9,27 @@
 public class Tema4Ejercicio19 {
     public static void main(String[] args) {
     // Aquí comenzamos meter datos por consola
-     
+    // Math.abs no hace el numero absoluto sin signo.
     System.out.println("Introduzca un numero entero");
-    int numero = Integer.parseInt(System.console().readLine());
+    int digitos = Math.abs (Integer.parseInt(System.console().readLine()));
     
-    if (numero < 10){
-      numero = 1; 
-      System.out.println("el número tiene "+ numero + " digito");
+    if (digitos < 10){
+      digitos = 1; 
+    
+    } else if (digitos < 100){
+      digitos = 2;
       
-    } else if (numero < 100){
-      numero = 2;
-      System.out.println("el número tiene " + numero + " digitos");
 
-    } else if (numero < 1000){
-      numero = 3;
-      System.out.println("el número tiene " + numero + " digitos");
-    } else if (numero < 10000){
-      numero = 4;
-      System.out.println("el número tiene " + numero + " digitos");
-    } else if (numero < 100000){
-      numero = 5;
-      System.out.println("el número tiene " + numero + " digitos");
+    } else if (digitos < 1000){
+      digitos = 3;
+      
+    } else if (digitos < 10000){
+      digitos = 4;
+      
+    } else if (digitos < 100000){
+      digitos = 5;
+      
     }
-    
+      System.out.println("el número tiene "+ digitos + " digito/s");
   }
 }

@@ -1,13 +1,13 @@
 /**
- * 4. Sentencia Condicional
- *
- * 20. Realiza un programa que diga si un número entero positivo
- *     introducido por teclado es capicúa. Se permiten números de
- *     hasta 5 cifras.
- *
- * @author Luis José Sánchez
- */
-public class S04Ejercicio20 {
+* 
+* Ejercicio 20
+* Realiza un programa que diga si un número entero positivo introducido por
+* teclado es capicúa. Se permiten números de hasta 5 cifras.
+*
+* @author Fernando
+*/ 
+
+public class Tema4Ejercicio20 {
 
   public static void main(String[] args) {
     
